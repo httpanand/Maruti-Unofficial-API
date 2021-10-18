@@ -43,6 +43,19 @@ baleno = [{
 	"Starting Price":"5.9L"
 }]
 
+ciaz = [{
+	"Fuel Type":"Petrol,Diesel",
+	"Mileage":"20-21 km/l",
+	"Length":"4490mm",
+	"Width":"1730mm",
+	"Height":"1485mm",
+	"Wheelbase":"2650mm",
+	"Ground Clearance":"170mm",
+	"Boot Space":"510L",
+	"Starting Price":"8.6L"
+}]
+
+
 @app.route('/api/alto', methods=['GET'])
 def al():
     return jsonify(alto)
@@ -54,6 +67,10 @@ def cel():
 @app.route('/api/baleno', methods=['GET'])
 def bal():
     return jsonify(baleno)
+
+@app.route('/api/ciaz', methods=['GET'])
+def cia():
+    return jsonify(ciaz)
 
 
 if __name__ == '__main__':
