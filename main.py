@@ -7,6 +7,10 @@ app = Flask(__name__)
 def html():
 	return render_template('main.html')
 
+@app.route('/api')
+def noaccess():
+	return render_template('cars.html')
+
 alto = [{
 	"Fuel Type":"Petrol,CNG",
 	"Mileage":"22-31 km/l",
