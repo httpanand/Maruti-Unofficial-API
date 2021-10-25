@@ -29,3 +29,7 @@
 <h3>ERTIGA</h3>
 <pre><code>    https:<span class="hljs-regexp">//m</span>aruti-suzuki-api.anandpy2156.repl.co<span class="hljs-regexp">/api/</span>ertiga
 </code></pre>  
+
+<h3>IGNIS</h3>
+<pre><code>    https:<span class="hljs-regexp">//m</span>aruti-suzuki-api.anandpy2156.repl.co<span class="hljs-regexp">/api/</span>ignis
+</code></pre>  
