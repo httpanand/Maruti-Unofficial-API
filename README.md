@@ -13,3 +13,19 @@
 <h3>CELERIO</h3>
 <pre><code>    https:<span class="hljs-regexp">//m</span>aruti-suzuki-api.anandpy2156.repl.co<span class="hljs-regexp">/api/</span>celerio
 </code></pre>  
+
+<h3>BALENO</h3>
+<pre><code>    https:<span class="hljs-regexp">//m</span>aruti-suzuki-api.anandpy2156.repl.co<span class="hljs-regexp">/api/</span>baleno
+</code></pre>  
+
+<h3>CIAZ</h3>
+<pre><code>    https:<span class="hljs-regexp">//m</span>aruti-suzuki-api.anandpy2156.repl.co<span class="hljs-regexp">/api/</span>ciaz
+</code></pre>  
+
+<h3>DZIRE</h3>
+<pre><code>    https:<span class="hljs-regexp">//m</span>aruti-suzuki-api.anandpy2156.repl.co<span class="hljs-regexp">/api/</span>dzire
+</code></pre>  
+  
+<h3>ERTIGA</h3>
+<pre><code>    https:<span class="hljs-regexp">//m</span>aruti-suzuki-api.anandpy2156.repl.co<span class="hljs-regexp">/api/</span>ertiga
+</code></pre>  
