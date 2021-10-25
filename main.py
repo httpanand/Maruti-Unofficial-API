@@ -8,7 +8,7 @@ def html():
 	return render_template('main.html')
 
 @app.route('/api')
-def noaccess():
+def carlist():
 	return render_template('cars.html')
 
 alto = [{
@@ -119,6 +119,42 @@ scross  = [{
 	"Starting Price":"8.5L"
 }]
 
+spresso  = [{
+	"Fuel Type":"Petrol,Diesel",
+	"Mileage":"21-31 km/l",
+	"Length":"3565mm",
+	"Width":"1520mm",
+	"Height":"1549mm",
+	"Wheelbase":"2380mm",
+	"Ground Clearance":"180mm",
+	"Boot Space":"270l",
+	"Starting Price":"3.7L"
+}]
+
+swift = [{
+	"Fuel Type":"Petrol,Diesel",
+	"Mileage":"21-23 km/l",
+	"Length":"3850mm",
+	"Width":"1695mm",
+	"Height":"1530mm",
+	"Wheelbase":"2450mm",
+	"Ground Clearance":"170mm",
+	"Boot Space":"268l",
+	"Starting Price":"5.8L"
+}]
+
+brezza = [{
+	"Fuel Type":"Petrol,Diesel",
+	"Mileage":"17-19 km/l",
+	"Length":"3995mm",
+	"Width":"1790mm",
+	"Height":"1640mm",
+	"Wheelbase":"2500mm",
+	"Ground Clearance":"198mm",
+	"Boot Space":"328l",
+	"Starting Price":"7.6L"
+}]
+
 @app.route('/api/alto', methods=['GET'])
 def alt():
     return jsonify(alto)
@@ -151,8 +187,22 @@ def ign():
 def scr():
     return jsonify(scross)
 
+@app.route('/api/spresso', methods=['GET'])
+def spr():
+    return jsonify(spresso) 
+
+@app.route('/api/swift', methods=['GET'])
+def swi():
+    return jsonify(swift) 
+
+
+@app.route('/api/brezza', methods=['GET'])
+def bre():
+    return jsonify(brezza) 
+ 
 if __name__ == '__main__':
   app.debug = True
   app.run(host="0.0.0.0", port=8080)
+
 
 
