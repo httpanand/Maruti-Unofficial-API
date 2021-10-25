@@ -1,5 +1,9 @@
-<h1 align="center">MARUTHI UNOFFICIAL API <img height="20px" src="https://user-images.githubusercontent.com/87514488/137593395-9141b8d4-79a9-4f95-98fd-fb3bfe89f0af.png"></h1>
-<h3> Maruti Unofficial api returns details of Maruti Suzuki Cars ! I didn't find an official one , so ...
+<h1 align="center">MARUTHI UNOFFICIAL API <img height="20px" src="https://user-images.githubusercontent.com/87514488/137593395-9141b8d4-79a9-4f95-98fd-fb3bfe89f0af.png"> 
+</h1>
+<p align="center"><a><img src="http://ForTheBadge.com/images/badges/made-with-python.svg" alt="forthebadge made-with-python"></a>
+<a href="https://GitHub.com/Naereen/"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="ForTheBadge built-with-love"></a></p>
+<h3> Maruti Unofficial api returns details of Maruti Suzuki Cars ! I didn't find an official one , so i made one this.
+  
 
 
 <h3>USAGE</h3>
