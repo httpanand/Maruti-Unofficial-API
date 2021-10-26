@@ -5,7 +5,6 @@
 
 <h3> Maruti Unofficial API returns details of Maruti Suzuki Cars ! I didn't find an official one , so i made this . ⭐ my repo if you like :) 
 
-
 <h3>USAGE</h3>
   <pre><code>    https:<span class="hljs-regexp">//m</span>aruti-suzuki-api.anandpy2156.repl.co<span class="hljs-regexp">/api/</span>{car_name}
 </code></pre>
